@@ -131,11 +131,18 @@ table {
   box-sizing: border-box;
 }
  a {
+  font-family: 'PT Sans', sans-serif;
+  color: black;
   margin: 3rem;
   text-decoration: none;
   font-weight: bold;
   float: left;
   text-transform: capitalize;
+}
+a:hover{
+  color: goldenrod;
+  font-size: 1.05rem;
+  -moz-transition-delay: 1ms;
 }
 html,
 body {
@@ -145,12 +152,15 @@ body {
 h1 {
   color: rgb(8, 8, 8);
   font-size: 3rem;
+  font-family: 'PT Sans', sans-serif;
 }
 img {
-  width: 15rem;
+  width: 13rem;
+  border-radius: 2em;
 }
 p{
   font-size: 1.5rem;
+  font-family: 'PT Sans', sans-serif;
 }
 
 button{
@@ -171,13 +181,16 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #a1d2fa;
   text-align: left;
   padding: 8px;
 }
+.ctc1{
+  background-color: #FDFFF1;
+}
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #b7e9f1;
 }
 #table{
   font-weight: bold;
@@ -192,5 +205,11 @@ tr:nth-child(even) {
   text-transform: capitalize;
 }
 h2{
+  color: white;
   padding: 1rem;
+  font-family: 'PT Sans', sans-serif;
+}
+#sub-t{
+  color: black;
+  font-family: 'PT Sans', sans-serif;
 }
